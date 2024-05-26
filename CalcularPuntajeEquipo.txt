@@ -1,0 +1,12 @@
+Algoritmo CalcularPuntajeEquipo
+	Definir partidos_ganados, partidos_perdidos, partidos_empatados, puntos Como Real
+	Escribir "ingrese la cantidad de partidos_ganados:"
+	Leer partidos_ganados
+	Escribir "ingrese la cantidad de partidos_empatados:"
+	Leer partidos_empatados
+	Escribir "ingrese cantidad de partidos_perdidos:"
+	Leer partidos_perdidos
+	puntos<- (partidos_ganados*3) + partidos_empatados
+	Escribir "el equipo tiene ", puntos, " puntos en el campeonato"
+	
+FinAlgoritmo
