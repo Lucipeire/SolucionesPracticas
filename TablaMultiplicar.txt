@@ -1,0 +1,13 @@
+Algoritmo TablaMultiplicar
+	Definir resultado, numero Como Entero
+	Escribir "Ingrese numero entre el 1 y el 10"
+	Leer numero
+	si numero >=1 y numero <= 10 Entonces
+		Para  i<- 1 hasta 10 Con Paso 1 Hacer
+			resultado<- numero* i
+			Escribir  numero, "x", i, "=" , resultado
+		FinPara
+	SiNo
+		Escribir "el numero ingresado no esta dentro del rango valido"
+	FinSi
+FinAlgoritmo
