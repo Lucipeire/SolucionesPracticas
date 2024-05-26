@@ -1,0 +1,21 @@
+Algoritmo Promedio
+	//algoritmo que lea 5 notas de materias y haga el promedio
+	//datos de entrada
+	Definir nota1, nota2, nota3, nota4, nota5 Como Entero
+	Definir a Como Real
+	Escribir "ingrese nota1:"
+	Leer nota
+	Escribir "ingrese nota2:"
+	Leer nota
+	Escribir "ingrese nota3:"
+	Leer nota
+	Escribir "ingrese nota4"
+	Leer nota
+	Escribir "ingrese nota5"
+	Leer nota
+	a<- (nota1+nota2+nota3+nota4+nota5)/5;
+	Escribir "El promedio de las notas es:",a;
+	
+	
+	
+FinAlgoritmo

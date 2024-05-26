@@ -1,0 +1,12 @@
+Algoritmo Presupuesto
+	Definir ancho, alto, area, costom2, costomanodeobra Como Real
+	Escribir "Ingrese el ancho de la pared:"
+	Leer ancho
+	Escribir "ingrese el alto de la pared"
+	Leer alto
+	area<- (ancho*alto)
+	Escribir "ingrese el monto que cobra el pintor por m2"
+	Leer m2
+	costomanodeobra<- area*costom2
+	Escribir " el costo de la mano de obra es:", costomanodeobra
+FinAlgoritmo
