@@ -1,0 +1,26 @@
+Algoritmo CalcularCostoLeche
+	Definir cantidadLeche, costoUnitario, costoTotal, descuento, descuentoJubilado Como Real
+	costoUnitario<-1000
+	Escribir "ingrese la cantidad de leche que desea comprar:"
+	Leer cantidadLeche
+	si cantidadLeche>24 Entonces 
+		descuento<- 0.15
+	SiNo
+		si cantidadLeche<12 Entonces
+			descuento<- 0.10
+		SiNo
+			descuento<- 0
+		FinSi
+	FinSi
+			costoTotal<- cantidadLeche*costoUnitario* (1 - descuento)
+			Escribir "¿Es usted jubilado? (s/n):"
+			Leer respuesta
+			Si respuesta= "s" o respuesta = "S" Entonces
+				descuentoJubilado<- 0.10
+				costoTotal<-costoTotal* (1 - descuentoJubilado)
+				
+			FinSi
+			Escribir "El costo toal a pagar es:", costoTotal, " pesos."
+			
+			
+FinAlgoritmo
